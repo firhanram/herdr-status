@@ -1,0 +1,18 @@
+{
+  "name": "cmd-mod-herdr-status",
+  "version": "0.1.0",
+  "description": "Reports Command Code agent state to Herdr desktop via OSC 7501.",
+  "keywords": [
+    "cmd-mod",
+    "cmd-mod-hook",
+    "herdr",
+    "command-code"
+  ],
+  "repository": "https://github.com/firhanram/herdr-status",
+  "license": "MIT",
+  "commandcode": {
+    "mods": [
+      "./herdr-status.ts"
+    ]
+  }
+}
